@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"seymour" ;
+    src: url(font/SeymourOne-Regular.ttf);
+}
+
+body{
+    background: linear-gradient(brown,orange);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "seymour";
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding:10px ;
+    font-family: "seymour";
+}
